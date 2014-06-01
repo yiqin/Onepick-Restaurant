@@ -14,13 +14,24 @@
 		8D16D4B6193B7C77005FC751 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D16D4B5193B7C77005FC751 /* main.m */; };
 		8D16D4BA193B7C77005FC751 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D16D4B9193B7C77005FC751 /* AppDelegate.m */; };
 		8D16D4BD193B7C77005FC751 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D16D4BB193B7C77005FC751 /* Main.storyboard */; };
-		8D16D4C0193B7C77005FC751 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D16D4BF193B7C77005FC751 /* ViewController.m */; };
 		8D16D4C2193B7C77005FC751 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D16D4C1193B7C77005FC751 /* Images.xcassets */; };
 		8D16D4C9193B7C77005FC751 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D16D4C8193B7C77005FC751 /* XCTest.framework */; };
 		8D16D4CA193B7C77005FC751 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D16D4A9193B7C77005FC751 /* Foundation.framework */; };
 		8D16D4CB193B7C77005FC751 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D16D4AD193B7C77005FC751 /* UIKit.framework */; };
 		8D16D4D3193B7C77005FC751 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D16D4D1193B7C77005FC751 /* InfoPlist.strings */; };
 		8D16D4D5193B7C77005FC751 /* Ichiban_RestaurantTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D16D4D4193B7C77005FC751 /* Ichiban_RestaurantTests.m */; };
+		8D16D4E6193B7E44005FC751 /* AddDishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D16D4E5193B7E44005FC751 /* AddDishViewController.m */; };
+		8D16D4E9193B7FF2005FC751 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D16D4E7193B7FF2005FC751 /* FacebookSDK.framework */; };
+		8D16D4EA193B7FF2005FC751 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D16D4E8193B7FF2005FC751 /* Parse.framework */; };
+		8D16D4EC193B800E005FC751 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D16D4EB193B800E005FC751 /* AudioToolbox.framework */; };
+		8D16D4EE193B8013005FC751 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D16D4ED193B8013005FC751 /* CFNetwork.framework */; };
+		8D16D4F0193B8021005FC751 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D16D4EF193B8020005FC751 /* CoreLocation.framework */; };
+		8D16D4F2193B8027005FC751 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D16D4F1193B8027005FC751 /* libz.dylib */; };
+		8D16D4F4193B802D005FC751 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D16D4F3193B802D005FC751 /* MobileCoreServices.framework */; };
+		8D16D4F6193B8034005FC751 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D16D4F5193B8033005FC751 /* QuartzCore.framework */; };
+		8D16D4F8193B8039005FC751 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D16D4F7193B8039005FC751 /* Security.framework */; };
+		8D16D4FA193B803F005FC751 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D16D4F9193B803F005FC751 /* StoreKit.framework */; };
+		8D16D4FC193B8046005FC751 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D16D4FB193B8046005FC751 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +56,25 @@
 		8D16D4B8193B7C77005FC751 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8D16D4B9193B7C77005FC751 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8D16D4BC193B7C77005FC751 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8D16D4BE193B7C77005FC751 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8D16D4BF193B7C77005FC751 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8D16D4C1193B7C77005FC751 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8D16D4C7193B7C77005FC751 /* Ichiban RestaurantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ichiban RestaurantTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D16D4C8193B7C77005FC751 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		8D16D4D0193B7C77005FC751 /* Ichiban RestaurantTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ichiban RestaurantTests-Info.plist"; sourceTree = "<group>"; };
 		8D16D4D2193B7C77005FC751 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8D16D4D4193B7C77005FC751 /* Ichiban_RestaurantTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ichiban_RestaurantTests.m; sourceTree = "<group>"; };
+		8D16D4E4193B7E44005FC751 /* AddDishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddDishViewController.h; sourceTree = "<group>"; };
+		8D16D4E5193B7E44005FC751 /* AddDishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddDishViewController.m; sourceTree = "<group>"; };
+		8D16D4E7193B7FF2005FC751 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		8D16D4E8193B7FF2005FC751 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		8D16D4EB193B800E005FC751 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		8D16D4ED193B8013005FC751 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		8D16D4EF193B8020005FC751 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8D16D4F1193B8027005FC751 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		8D16D4F3193B802D005FC751 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		8D16D4F5193B8033005FC751 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8D16D4F7193B8039005FC751 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		8D16D4F9193B803F005FC751 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		8D16D4FB193B8046005FC751 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +82,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D16D4FC193B8046005FC751 /* SystemConfiguration.framework in Frameworks */,
+				8D16D4FA193B803F005FC751 /* StoreKit.framework in Frameworks */,
+				8D16D4F8193B8039005FC751 /* Security.framework in Frameworks */,
+				8D16D4F6193B8034005FC751 /* QuartzCore.framework in Frameworks */,
+				8D16D4F4193B802D005FC751 /* MobileCoreServices.framework in Frameworks */,
+				8D16D4F2193B8027005FC751 /* libz.dylib in Frameworks */,
+				8D16D4F0193B8021005FC751 /* CoreLocation.framework in Frameworks */,
 				8D16D4AC193B7C77005FC751 /* CoreGraphics.framework in Frameworks */,
+				8D16D4EE193B8013005FC751 /* CFNetwork.framework in Frameworks */,
+				8D16D4EC193B800E005FC751 /* AudioToolbox.framework in Frameworks */,
+				8D16D4E9193B7FF2005FC751 /* FacebookSDK.framework in Frameworks */,
 				8D16D4AE193B7C77005FC751 /* UIKit.framework in Frameworks */,
 				8D16D4AA193B7C77005FC751 /* Foundation.framework in Frameworks */,
+				8D16D4EA193B7FF2005FC751 /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +134,17 @@
 		8D16D4A8193B7C77005FC751 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8D16D4FB193B8046005FC751 /* SystemConfiguration.framework */,
+				8D16D4F9193B803F005FC751 /* StoreKit.framework */,
+				8D16D4F7193B8039005FC751 /* Security.framework */,
+				8D16D4F5193B8033005FC751 /* QuartzCore.framework */,
+				8D16D4F3193B802D005FC751 /* MobileCoreServices.framework */,
+				8D16D4F1193B8027005FC751 /* libz.dylib */,
+				8D16D4EF193B8020005FC751 /* CoreLocation.framework */,
+				8D16D4ED193B8013005FC751 /* CFNetwork.framework */,
+				8D16D4EB193B800E005FC751 /* AudioToolbox.framework */,
+				8D16D4E7193B7FF2005FC751 /* FacebookSDK.framework */,
+				8D16D4E8193B7FF2005FC751 /* Parse.framework */,
 				8D16D4A9193B7C77005FC751 /* Foundation.framework */,
 				8D16D4AB193B7C77005FC751 /* CoreGraphics.framework */,
 				8D16D4AD193B7C77005FC751 /* UIKit.framework */,
@@ -115,8 +159,8 @@
 				8D16D4B8193B7C77005FC751 /* AppDelegate.h */,
 				8D16D4B9193B7C77005FC751 /* AppDelegate.m */,
 				8D16D4BB193B7C77005FC751 /* Main.storyboard */,
-				8D16D4BE193B7C77005FC751 /* ViewController.h */,
-				8D16D4BF193B7C77005FC751 /* ViewController.m */,
+				8D16D4E4193B7E44005FC751 /* AddDishViewController.h */,
+				8D16D4E5193B7E44005FC751 /* AddDishViewController.m */,
 				8D16D4C1193B7C77005FC751 /* Images.xcassets */,
 				8D16D4B0193B7C77005FC751 /* Supporting Files */,
 			);
@@ -249,8 +293,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D16D4C0193B7C77005FC751 /* ViewController.m in Sources */,
 				8D16D4BA193B7C77005FC751 /* AppDelegate.m in Sources */,
+				8D16D4E6193B7E44005FC751 /* AddDishViewController.m in Sources */,
 				8D16D4B6193B7C77005FC751 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -376,6 +420,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Ichiban Restaurant/Ichiban Restaurant-Prefix.pch";
 				INFOPLIST_FILE = "Ichiban Restaurant/Ichiban Restaurant-Info.plist";
@@ -389,6 +437,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Ichiban Restaurant/Ichiban Restaurant-Prefix.pch";
 				INFOPLIST_FILE = "Ichiban Restaurant/Ichiban Restaurant-Info.plist";
