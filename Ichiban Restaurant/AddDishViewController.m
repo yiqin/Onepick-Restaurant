@@ -33,7 +33,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
     [self.category becomeFirstResponder];
     // Do any additional setup after loading the view.
 }
@@ -45,31 +44,41 @@
 }
 
 - (IBAction)saveToParse:(id)sender {
-    [SVProgressHUD show];
-    
-    // selection (To-Do)
-    PFObject *newDish = [PFObject objectWithClassName:@"DishesIN"];
-    newDish[@"category"] = self.category.text;
-    
-    NSNumberFormatter * f = [[NSNumberFormatter alloc] init];
-    [f setNumberStyle:NSNumberFormatterDecimalStyle];
-    NSNumber * myNumberPrice = [f numberFromString:self.price.text];
-    NSArray *dishArrayObjects = [NSArray arrayWithObjects:@"nameChinese", @"name", @"price", nil];
-    NSArray *dishArrayKeys = [NSArray arrayWithObjects:self.nameChinese.text, self.name.text, myNumberPrice, nil];
-    
-    NSDictionary *dishDictionaryInput = [NSDictionary dictionaryWithObjects:dishArrayObjects forKeys:dishArrayKeys];
-    NSString *dishDictionaryInputString = [dishDictionaryInput DictionaryToJSONString];
-    
-    newDish[@"dish"] = dishDictionaryInputString;
-    newDish[@"orderCount"] = @0;
-    
-    [newDish saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
-        if (succeeded) {
-            [SVProgressHUD dismiss];
-        }
-    }];
-    
-    
+    if (![self.category.text isEqualToString:@""] && ![self.nameChinese.text isEqualToString:@""] && ![self.name.text isEqualToString:@""] && ![self.price.text isEqualToString:@""]) {
+        
+        [SVProgressHUD show];
+
+        // selection (To-Do)
+        PFObject *newDish = [PFObject objectWithClassName:@"DishesIN"];
+        newDish[@"category"] = self.category.text;
+        
+        NSNumberFormatter * f = [[NSNumberFormatter alloc] init];
+        [f setNumberStyle:NSNumberFormatterDecimalStyle];
+        NSNumber * myNumberPrice = [f numberFromString:self.price.text];
+        NSArray *dishArrayKeys = [NSArray arrayWithObjects:@"nameChinese", @"name", @"price", nil];
+        NSArray *dishArrayObjects = [NSArray arrayWithObjects:self.nameChinese.text, self.name.text, myNumberPrice, nil];
+        
+        NSDictionary *dishDictionaryInput = [NSDictionary dictionaryWithObjects:dishArrayObjects forKeys:dishArrayKeys];
+        NSString *dishDictionaryInputString = [dishDictionaryInput DictionaryToJSONString];
+        
+        newDish[@"dish"] = dishDictionaryInputString;
+        newDish[@"orderCount"] = @0;
+        
+        [newDish saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
+            if (succeeded) {
+                [SVProgressHUD dismiss];
+                [self.category setText:@""];
+                [self.name setText:@""];
+                [self.nameChinese setText:@""];
+                [self.price setText:@""];
+                [self.navigationController popViewControllerAnimated:YES];
+            }
+        }];
+    }
+    else {
+        UIAlertView *notCompleteForm = [[UIAlertView alloc] initWithTitle:@"Add Dish" message:@"Please fill in all the blank." delegate:self cancelButtonTitle:@"Continue" otherButtonTitles:nil];
+        [notCompleteForm show];
+    }
 }
 
 /*

@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AddDishViewController : UIViewController
+@interface AddDishViewController : UIViewController <UIAlertViewDelegate>
 
 @end
