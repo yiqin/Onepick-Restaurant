@@ -142,20 +142,10 @@
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-    
-    //NSLog(@"Start to move to dishes.");
     NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-    // Send selection to DishTableViewController.
     DishTableViewController *destViewController = segue.destinationViewController;
-    
     PFObject *object = [self.objects objectAtIndex:indexPath.row];
-    
     destViewController.category = [object objectForKey:@"category"];
-    
-    NSLog(@"%@",destViewController.category);
-    
 }
 
 

@@ -8,6 +8,7 @@
 
 #import "DishTableViewController.h"
 #import "NSString+JSONStringToDictionary.h"
+#import "EditViewController.h"
 
 @interface DishTableViewController ()
 
@@ -95,12 +96,6 @@
 }
 
 
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
-
-}
-
-
 /*
 // Override to support conditional editing of the table view.
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
@@ -139,15 +134,15 @@
 }
 */
 
-/*
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+    EditViewController *destViewController = segue.destinationViewController;
+    PFObject *object = [self.objects objectAtIndex:indexPath.row];
+    destViewController.objectId = [object objectForKey:@"category"];
 }
-*/
 
 @end

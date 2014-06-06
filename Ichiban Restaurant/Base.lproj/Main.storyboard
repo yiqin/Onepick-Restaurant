@@ -219,7 +219,7 @@
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name Chinese" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rIg-WY-23N">
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="201" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name Chinese" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rIg-WY-23N">
                                             <rect key="frame" x="20" y="46" width="267" height="21"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -243,10 +243,10 @@
             </objects>
             <point key="canvasLocation" x="1677" y="376"/>
         </scene>
-        <!--View Controller-->
+        <!--Edit View Controller - Edit-->
         <scene sceneID="1jM-lS-0Ms">
             <objects>
-                <viewController id="AQM-th-u1A" sceneMemberID="viewController">
+                <viewController id="AQM-th-u1A" customClass="EditViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="UP4-9Q-ftv"/>
                         <viewControllerLayoutGuide type="bottom" id="NCy-ZZ-4vG"/>
@@ -256,7 +256,13 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Bnr-tj-Zrl"/>
+                    <navigationItem key="navigationItem" title="Edit" id="Bnr-tj-Zrl">
+                        <barButtonItem key="rightBarButtonItem" title="Delete" id="wst-Ea-L3z">
+                            <connections>
+                                <action selector="deleteDish:" destination="AQM-th-u1A" id="2zZ-zz-P8S"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qnx-t9-wNg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
