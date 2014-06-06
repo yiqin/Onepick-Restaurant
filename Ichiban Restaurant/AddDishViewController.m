@@ -7,8 +7,15 @@
 //
 
 #import "AddDishViewController.h"
+#import <Parse/Parse.h>
+#import "SVProgressHUD.h"
+#import "NSDictionary+DictionaryToJSONString.h"
 
 @interface AddDishViewController ()
+@property (strong, nonatomic) IBOutlet UITextField *category;
+@property (strong, nonatomic) IBOutlet UITextField *name;
+@property (strong, nonatomic) IBOutlet UITextField *nameChinese;
+@property (strong, nonatomic) IBOutlet UITextField *price;
 
 @end
 
@@ -26,6 +33,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    [self.category becomeFirstResponder];
     // Do any additional setup after loading the view.
 }
 
@@ -33,6 +42,34 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)saveToParse:(id)sender {
+    [SVProgressHUD show];
+    
+    // selection (To-Do)
+    PFObject *newDish = [PFObject objectWithClassName:@"DishesIN"];
+    newDish[@"category"] = self.category.text;
+    
+    NSNumberFormatter * f = [[NSNumberFormatter alloc] init];
+    [f setNumberStyle:NSNumberFormatterDecimalStyle];
+    NSNumber * myNumberPrice = [f numberFromString:self.price.text];
+    NSArray *dishArrayObjects = [NSArray arrayWithObjects:@"nameChinese", @"name", @"price", nil];
+    NSArray *dishArrayKeys = [NSArray arrayWithObjects:self.nameChinese.text, self.name.text, myNumberPrice, nil];
+    
+    NSDictionary *dishDictionaryInput = [NSDictionary dictionaryWithObjects:dishArrayObjects forKeys:dishArrayKeys];
+    NSString *dishDictionaryInputString = [dishDictionaryInput DictionaryToJSONString];
+    
+    newDish[@"dish"] = dishDictionaryInputString;
+    newDish[@"orderCount"] = @0;
+    
+    [newDish saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
+        if (succeeded) {
+            [SVProgressHUD dismiss];
+        }
+    }];
+    
+    
 }
 
 /*

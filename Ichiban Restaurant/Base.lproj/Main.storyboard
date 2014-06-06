@@ -28,7 +28,7 @@
         <scene sceneID="huO-8a-4rY">
             <objects>
                 <navigationController definesPresentationContext="YES" id="xko-3z-HmA" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Add" id="cgY-Ib-1sd"/>
+                    <tabBarItem key="tabBarItem" title="Add" image="Add.png" id="cgY-Ib-1sd"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="FNe-4V-Rdq">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -51,15 +51,65 @@
                     <view key="view" contentMode="scaleToFill" id="pCD-lU-btg">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Category" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PiU-5d-LY2">
+                                <rect key="frame" x="20" y="79" width="280" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fIq-ws-Jm9">
+                                <rect key="frame" x="20" y="117" width="280" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Chinese Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0ZS-w5-8mK">
+                                <rect key="frame" x="20" y="155" width="280" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Price (just number)" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hqK-8q-Zo5">
+                                <rect key="frame" x="20" y="193" width="280" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BOy-ab-U3S">
+                                <rect key="frame" x="20" y="269" width="280" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Save">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="saveToParse:" destination="c8d-Du-OQj" eventType="touchUpInside" id="pBK-7g-9Hg"/>
+                                </connections>
+                            </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="7Ln-HC-iH0">
+                                <rect key="frame" x="20" y="233" width="280" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="West Lafayette"/>
+                                    <segment title="Madison"/>
+                                </segments>
+                            </segmentedControl>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Add Dish" id="xF0-Y0-wYW"/>
+                    <connections>
+                        <outlet property="category" destination="PiU-5d-LY2" id="6G5-TZ-d23"/>
+                        <outlet property="name" destination="fIq-ws-Jm9" id="7zb-0c-qw8"/>
+                        <outlet property="nameChinese" destination="0ZS-w5-8mK" id="mVu-K6-y20"/>
+                        <outlet property="price" destination="hqK-8q-Zo5" id="py5-t5-Kxw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PJG-b9-ALl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1045" y="-378"/>
         </scene>
-        <!--Table View Controller - Edit Dish-->
+        <!--Table View Controller - Menu-->
         <scene sceneID="1oZ-LF-hTQ">
             <objects>
                 <tableViewController id="BhU-37-ruG" sceneMemberID="viewController">
@@ -82,7 +132,7 @@
                             <outlet property="delegate" destination="BhU-37-ruG" id="mTM-py-xB0"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Edit Dish" id="oJR-SZ-Lcn"/>
+                    <navigationItem key="navigationItem" title="Menu" id="oJR-SZ-Lcn"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jfI-2S-th5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -121,7 +171,7 @@
         <scene sceneID="W3u-us-Tte">
             <objects>
                 <navigationController definesPresentationContext="YES" id="F3Z-n3-cUZ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Review" id="yjw-a9-cog"/>
+                    <tabBarItem key="tabBarItem" title="Review" image="Review.png" id="yjw-a9-cog"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="8rk-w6-Cwe">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -137,7 +187,7 @@
         <scene sceneID="Ora-JB-pIa">
             <objects>
                 <navigationController definesPresentationContext="YES" id="UKg-yU-jCC" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Edit" id="hGa-pT-Qcx"/>
+                    <tabBarItem key="tabBarItem" title="Edit" image="Edit.png" id="hGa-pT-Qcx"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="N5e-wV-Ad0">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -150,6 +200,11 @@
             <point key="canvasLocation" x="549" y="376"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Add.png" width="30" height="30"/>
+        <image name="Edit.png" width="30" height="30"/>
+        <image name="Review.png" width="30" height="30"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
