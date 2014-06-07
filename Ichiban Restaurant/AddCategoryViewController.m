@@ -40,6 +40,7 @@
 
 - (IBAction)saveToParse:(id)sender {
     if (![self.addCategory.text isEqualToString:@""]) {
+        [SVProgressHUD show];
         PFObject *newCategory = [PFObject objectWithClassName:@"ichibanCategoryIN"];
         newCategory[@"category"] = self.addCategory.text;
         

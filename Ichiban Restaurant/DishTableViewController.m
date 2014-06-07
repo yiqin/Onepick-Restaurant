@@ -34,7 +34,7 @@
     self = [super initWithCoder:aCoder];
     if (self) {
         // Whether the built-in pull-to-refresh is enabled
-        self.pullToRefreshEnabled = NO;
+        self.pullToRefreshEnabled = YES;
         
         // Whether the built-in pagination is enabled
         self.paginationEnabled = NO;
@@ -142,7 +142,7 @@
     NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
     EditViewController *destViewController = segue.destinationViewController;
     PFObject *object = [self.objects objectAtIndex:indexPath.row];
-    destViewController.objectId = [object objectForKey:@"category"];
+    destViewController.objectId = [object objectId];
 }
 
 @end

@@ -7,8 +7,16 @@
 //
 
 #import "EditViewController.h"
+#import <dispatch/dispatch.h>
+#import <Parse/Parse.h>
+#import "NSString+JSONStringToDictionary.h"
+#import "NSDictionary+DictionaryToJSONString.h"
+#import "SVProgressHUD.h"
 
 @interface EditViewController ()
+@property (strong, nonatomic) IBOutlet UILabel *name;
+@property (strong, nonatomic) IBOutlet UILabel *nameChinese;
+@property (strong, nonatomic) IBOutlet UITextField *priceTextField;
 
 @end
 
@@ -30,7 +38,17 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    [SVProgressHUD show];
     
+    PFQuery *query = [PFQuery queryWithClassName:@"DishesIN"];
+    [query getObjectInBackgroundWithId:objectId block:^(PFObject *object, NSError *error) {
+            NSDictionary *dishInformation =  [[object objectForKey:@"dish"] JSONStringToDictionay];
+            self.name.text = [dishInformation objectForKey:@"name"];
+            self.nameChinese.text = [dishInformation objectForKey:@"nameChinese"];
+            NSNumber *price = [dishInformation objectForKey:@"price"];
+            [self.priceTextField setPlaceholder:[NSString stringWithFormat:@"%.2f",[price floatValue]]];
+        [SVProgressHUD dismiss];
+    }];
 }
 
 - (void)didReceiveMemoryWarning
@@ -41,9 +59,32 @@
 
 - (IBAction)deleteDish:(id)sender {
     UIAlertView *deleteDish = [[UIAlertView alloc] initWithTitle:@"Delete" message:@"Delete" delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"Confirm", nil];
-    
     [deleteDish show];
-    
+}
+
+- (IBAction)updatePrice:(id)sender {
+    if (![self.priceTextField.text isEqualToString:@""]) {
+        [SVProgressHUD show];
+        PFQuery *query = [PFQuery queryWithClassName:@"DishesIN"];
+        
+        NSNumberFormatter * f = [[NSNumberFormatter alloc] init];
+        [f setNumberStyle:NSNumberFormatterDecimalStyle];
+        NSNumber * myNumberPrice = [f numberFromString:self.priceTextField.text];
+        NSArray *dishArrayKeys = [NSArray arrayWithObjects:@"nameChinese", @"name", @"price", nil];
+        NSArray *dishArrayObjects = [NSArray arrayWithObjects:self.nameChinese.text, self.name.text, myNumberPrice, nil];
+        NSDictionary *dishDictionaryInput = [NSDictionary dictionaryWithObjects:dishArrayObjects forKeys:dishArrayKeys];
+        NSString *dishDictionaryInputString = [dishDictionaryInput DictionaryToJSONString];
+
+        [query getObjectInBackgroundWithId:objectId block:^(PFObject *object, NSError *error) {
+            object[@"dish"] = dishDictionaryInputString;
+            [object saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
+                if (succeeded) {
+                    [SVProgressHUD dismiss];
+                }
+            }];
+        }];
+        
+    }
 }
 
 #pragma mark - Alert view delegate
@@ -54,11 +95,26 @@
             break;
         case 1:
             //NSLog(@"OK button clicked");
-            [self.navigationController popViewControllerAnimated:YES];
+            [SVProgressHUD show];
+            [self removeDishOnParse];
+            
             break;
         default:
             break;
     }
+}
+
+- (void)removeDishOnParse {
+    PFQuery *query = [PFQuery queryWithClassName:@"DishesIN"];
+    
+    [query getObjectInBackgroundWithId:objectId block:^(PFObject *object, NSError *error) {
+        [object deleteInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
+            if (succeeded) {
+                [SVProgressHUD dismiss];
+                [self.navigationController popViewControllerAnimated:YES];
+            }
+        }];
+    }];
 }
 
 /*

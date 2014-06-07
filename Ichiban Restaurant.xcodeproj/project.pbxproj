@@ -47,6 +47,7 @@
 		8DC99E901941819D0094288F /* ReviewOrdersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DC99E8F1941819D0094288F /* ReviewOrdersTableViewController.m */; };
 		8DC99E93194183020094288F /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DC99E92194183020094288F /* MenuTableViewController.m */; };
 		8DC99E961941832B0094288F /* DishTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DC99E951941832B0094288F /* DishTableViewController.m */; };
+		8DE2354519428B8200BAF26C /* OrderDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE2354419428B8200BAF26C /* OrderDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,6 +114,8 @@
 		8DC99E92194183020094288F /* MenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewController.m; sourceTree = "<group>"; };
 		8DC99E941941832B0094288F /* DishTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DishTableViewController.h; sourceTree = "<group>"; };
 		8DC99E951941832B0094288F /* DishTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DishTableViewController.m; sourceTree = "<group>"; };
+		8DE2354319428B8200BAF26C /* OrderDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderDetailViewController.h; sourceTree = "<group>"; };
+		8DE2354419428B8200BAF26C /* OrderDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +201,8 @@
 				8D16D4B8193B7C77005FC751 /* AppDelegate.h */,
 				8D16D4B9193B7C77005FC751 /* AppDelegate.m */,
 				8D16D4BB193B7C77005FC751 /* Main.storyboard */,
+				8DE2354319428B8200BAF26C /* OrderDetailViewController.h */,
+				8DE2354419428B8200BAF26C /* OrderDetailViewController.m */,
 				8D5FC770194233980065BA0D /* EditViewController.h */,
 				8D5FC771194233980065BA0D /* EditViewController.m */,
 				8DC99E941941832B0094288F /* DishTableViewController.h */,
@@ -385,6 +390,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DE2354519428B8200BAF26C /* OrderDetailViewController.m in Sources */,
 				8D16D4BA193B7C77005FC751 /* AppDelegate.m in Sources */,
 				8DC99E961941832B0094288F /* DishTableViewController.m in Sources */,
 				8DC99E8419414A4B0094288F /* NSString+JSONStringToDictionary.m in Sources */,
