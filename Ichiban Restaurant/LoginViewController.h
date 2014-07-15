@@ -10,4 +10,6 @@
 
 @interface LoginViewController : UIViewController
 
+@property(strong, nonatomic)
+
 @end

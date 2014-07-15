@@ -34,7 +34,6 @@
 		8D16D4FC193B8046005FC751 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D16D4FB193B8046005FC751 /* SystemConfiguration.framework */; };
 		8D5FC772194233980065BA0D /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5FC771194233980065BA0D /* EditViewController.m */; };
 		8D9C756D1974B004009C440C /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9C756C1974B004009C440C /* LoginViewController.m */; };
-		8D9C75701974B1F2009C440C /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9C756F1974B1F2009C440C /* SignUpViewController.m */; };
 		8D9C75731974B25E009C440C /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9C75721974B25E009C440C /* AddViewController.m */; };
 		8DC99E6F194143ED0094288F /* Review@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DC99E6C194143EC0094288F /* Review@2x.png */; };
 		8DC99E70194143ED0094288F /* Edit@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DC99E6D194143ED0094288F /* Edit@2x.png */; };
@@ -98,8 +97,6 @@
 		8D5FC771194233980065BA0D /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
 		8D9C756B1974B004009C440C /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		8D9C756C1974B004009C440C /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
-		8D9C756E1974B1F2009C440C /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
-		8D9C756F1974B1F2009C440C /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
 		8D9C75711974B25E009C440C /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
 		8D9C75721974B25E009C440C /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
 		8DC99E6C194143EC0094288F /* Review@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Review@2x.png"; sourceTree = "<group>"; };
@@ -212,8 +209,6 @@
 				8D16D4BB193B7C77005FC751 /* Main.storyboard */,
 				8D9C756B1974B004009C440C /* LoginViewController.h */,
 				8D9C756C1974B004009C440C /* LoginViewController.m */,
-				8D9C756E1974B1F2009C440C /* SignUpViewController.h */,
-				8D9C756F1974B1F2009C440C /* SignUpViewController.m */,
 				8DE2354319428B8200BAF26C /* OrderDetailViewController.h */,
 				8DE2354419428B8200BAF26C /* OrderDetailViewController.m */,
 				8D5FC770194233980065BA0D /* EditViewController.h */,
@@ -418,7 +413,6 @@
 				8D16D4B6193B7C77005FC751 /* main.m in Sources */,
 				8D5FC772194233980065BA0D /* EditViewController.m in Sources */,
 				8DC99E93194183020094288F /* MenuTableViewController.m in Sources */,
-				8D9C75701974B1F2009C440C /* SignUpViewController.m in Sources */,
 				8DC99E8719417AAE0094288F /* AddCategoryViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
