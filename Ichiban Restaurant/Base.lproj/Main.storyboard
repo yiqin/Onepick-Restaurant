@@ -84,7 +84,7 @@
             </objects>
             <point key="canvasLocation" x="549" y="-378"/>
         </scene>
-        <!--Add View Controller - Adding-->
+        <!--Add View Controller-->
         <scene sceneID="Olq-EY-siE">
             <objects>
                 <viewController id="uiX-mm-bzy" customClass="AddViewController" sceneMemberID="viewController">
@@ -97,7 +97,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XOZ-h7-F2o">
-                                <rect key="frame" x="100" y="157" width="120" height="30"/>
+                                <rect key="frame" x="100" y="187" width="120" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Add Category">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -107,7 +107,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9h8-O9-HRO">
-                                <rect key="frame" x="110" y="267" width="101" height="30"/>
+                                <rect key="frame" x="110" y="319" width="101" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Add Dish">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -119,7 +119,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Adding" id="Lav-1Z-Cla"/>
+                    <navigationItem key="navigationItem" id="Lav-1Z-Cla"/>
                     <size key="freeformSize" width="320" height="480"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kvp-jb-dZQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -139,22 +139,22 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Category" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PiU-5d-LY2">
-                                <rect key="frame" x="20" y="107" width="280" height="30"/>
+                                <rect key="frame" x="20" y="127" width="280" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fIq-ws-Jm9">
-                                <rect key="frame" x="20" y="161" width="280" height="30"/>
+                                <rect key="frame" x="20" y="192" width="280" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Chinese Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0ZS-w5-8mK">
-                                <rect key="frame" x="20" y="216" width="280" height="30"/>
+                                <rect key="frame" x="20" y="258" width="280" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Price (just number)" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hqK-8q-Zo5">
-                                <rect key="frame" x="20" y="270" width="280" height="30"/>
+                                <rect key="frame" x="20" y="322" width="280" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -337,12 +337,12 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Category" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7Bj-ch-4Hh">
-                                <rect key="frame" x="20" y="132" width="280" height="30"/>
+                                <rect key="frame" x="20" y="157" width="280" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="swz-xm-YS3">
-                                <rect key="frame" x="143" y="187" width="34" height="30"/>
+                                <rect key="frame" x="143" y="253" width="34" height="30"/>
                                 <state key="normal" title="Save">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -350,12 +350,18 @@
                                     <action selector="saveToParse:" destination="Utg-3C-PjR" eventType="touchUpInside" id="3hx-fo-qxr"/>
                                 </connections>
                             </button>
+                            <textField appearanceType="aqua" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Category Chinese" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1zr-ud-4ed">
+                                <rect key="frame" x="20" y="203" width="280" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Add Category" id="yJF-G0-zW6"/>
                     <connections>
                         <outlet property="addCategory" destination="7Bj-ch-4Hh" id="SsX-tW-Iyc"/>
+                        <outlet property="addCategoryChinese" destination="1zr-ud-4ed" id="yhp-yd-lZA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="haJ-MN-bE8" userLabel="First Responder" sceneMemberID="firstResponder"/>

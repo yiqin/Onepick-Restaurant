@@ -12,6 +12,7 @@
 
 @interface AddCategoryViewController ()
 @property (strong, nonatomic) IBOutlet UITextField *addCategory;
+@property (strong, nonatomic) IBOutlet UITextField *addCategoryChinese;
 
 @end
 
@@ -30,6 +31,7 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -45,6 +47,7 @@
         [SVProgressHUD show];
         PFObject *newCategory = [PFObject objectWithClassName:@"ichibanCategoryIN"];
         newCategory[@"category"] = self.addCategory.text;
+        newCategory[@"categoryChinese"] = self.addCategoryChinese.text;
         
         [newCategory saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
             if (succeeded) {
