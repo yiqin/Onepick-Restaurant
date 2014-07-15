@@ -44,7 +44,6 @@
         LoginViewController *loginViewController = (LoginViewController *) [self.storyboard instantiateViewControllerWithIdentifier:@"LoginViewController"];
         [loginViewController.navigationItem setHidesBackButton:YES];
         [loginViewController setHidesBottomBarWhenPushed:YES];
-        
         [self.navigationController pushViewController:loginViewController animated:YES];
     }
     else {
