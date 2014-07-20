@@ -42,6 +42,10 @@
 		8D79050D197C264800D27EEA /* 29.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D79050C197C264800D27EEA /* 29.png */; };
 		8D79050F197C265300D27EEA /* 40.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D79050E197C265300D27EEA /* 40.png */; };
 		8D790511197C265A00D27EEA /* 60.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D790510197C265A00D27EEA /* 60.png */; };
+		8D790515197C2BE100D27EEA /* 76.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D790514197C2BE100D27EEA /* 76.png */; };
+		8D790517197C2BFE00D27EEA /* 152.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D790516197C2BFE00D27EEA /* 152.png */; };
+		8D79051A197C2C6A00D27EEA /* 768x1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D790518197C2C6A00D27EEA /* 768x1024.png */; };
+		8D79051B197C2C6A00D27EEA /* 1536x2048.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D790519197C2C6A00D27EEA /* 1536x2048.png */; };
 		8D9C756D1974B004009C440C /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9C756C1974B004009C440C /* LoginViewController.m */; };
 		8D9C75731974B25E009C440C /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9C75721974B25E009C440C /* AddViewController.m */; };
 		8DC99E6F194143ED0094288F /* Review@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DC99E6C194143EC0094288F /* Review@2x.png */; };
@@ -113,6 +117,10 @@
 		8D79050C197C264800D27EEA /* 29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 29.png; sourceTree = "<group>"; };
 		8D79050E197C265300D27EEA /* 40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 40.png; sourceTree = "<group>"; };
 		8D790510197C265A00D27EEA /* 60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 60.png; sourceTree = "<group>"; };
+		8D790514197C2BE100D27EEA /* 76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 76.png; sourceTree = "<group>"; };
+		8D790516197C2BFE00D27EEA /* 152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 152.png; sourceTree = "<group>"; };
+		8D790518197C2C6A00D27EEA /* 768x1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 768x1024.png; sourceTree = "<group>"; };
+		8D790519197C2C6A00D27EEA /* 1536x2048.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1536x2048.png; sourceTree = "<group>"; };
 		8D9C756B1974B004009C440C /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		8D9C756C1974B004009C440C /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		8D9C75711974B25E009C440C /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
@@ -296,7 +304,11 @@
 				8D79050C197C264800D27EEA /* 29.png */,
 				8D79050E197C265300D27EEA /* 40.png */,
 				8D790510197C265A00D27EEA /* 60.png */,
+				8D790514197C2BE100D27EEA /* 76.png */,
+				8D790516197C2BFE00D27EEA /* 152.png */,
 				8D790500197C25CE00D27EEA /* 120.png */,
+				8D790518197C2C6A00D27EEA /* 768x1024.png */,
+				8D790519197C2C6A00D27EEA /* 1536x2048.png */,
 				8D790501197C25CE00D27EEA /* 1200.png */,
 				8D790502197C25CE00D27EEA /* 58.png */,
 				8D790503197C25CE00D27EEA /* 640x1136.png */,
@@ -419,6 +431,7 @@
 				8DC99E6F194143ED0094288F /* Review@2x.png in Resources */,
 				8DC99E76194143F60094288F /* Edit.png in Resources */,
 				8D16D4C2193B7C77005FC751 /* Images.xcassets in Resources */,
+				8D790515197C2BE100D27EEA /* 76.png in Resources */,
 				8DC99E77194143F60094288F /* Add.png in Resources */,
 				8DC99E71194143ED0094288F /* Add@2x.png in Resources */,
 				8D7904FD197C21FF00D27EEA /* Default-568h@2x.png in Resources */,
@@ -428,10 +441,13 @@
 				8D16D4B4193B7C77005FC751 /* InfoPlist.strings in Resources */,
 				8DC99E70194143ED0094288F /* Edit@2x.png in Resources */,
 				8D79050F197C265300D27EEA /* 40.png in Resources */,
+				8D79051A197C2C6A00D27EEA /* 768x1024.png in Resources */,
 				8D79050B197C25CE00D27EEA /* 80.png in Resources */,
 				8D790511197C265A00D27EEA /* 60.png in Resources */,
 				8D790506197C25CE00D27EEA /* 120.png in Resources */,
+				8D790517197C2BFE00D27EEA /* 152.png in Resources */,
 				8DC99E75194143F60094288F /* Review.png in Resources */,
+				8D79051B197C2C6A00D27EEA /* 1536x2048.png in Resources */,
 				8D16D4BD193B7C77005FC751 /* Main.storyboard in Resources */,
 				8D79050A197C25CE00D27EEA /* 640x960.png in Resources */,
 			);
