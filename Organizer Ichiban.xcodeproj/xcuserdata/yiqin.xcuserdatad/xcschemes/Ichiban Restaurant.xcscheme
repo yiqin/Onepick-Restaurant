@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8D16D4A5193B7C77005FC751"
                BuildableName = "Ichiban Restaurant.app"
-               BlueprintName = "Ichiban Restaurant"
-               ReferencedContainer = "container:Ichiban Restaurant.xcodeproj">
+               BlueprintName = "Organizer Ichiban"
+               ReferencedContainer = "container:Organizer Ichiban.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8D16D4C6193B7C77005FC751"
                BuildableName = "Ichiban RestaurantTests.xctest"
-               BlueprintName = "Ichiban RestaurantTests"
-               ReferencedContainer = "container:Ichiban Restaurant.xcodeproj">
+               BlueprintName = "Organizer IchibanTests"
+               ReferencedContainer = "container:Organizer Ichiban.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,8 +44,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8D16D4A5193B7C77005FC751"
             BuildableName = "Ichiban Restaurant.app"
-            BlueprintName = "Ichiban Restaurant"
-            ReferencedContainer = "container:Ichiban Restaurant.xcodeproj">
+            BlueprintName = "Organizer Ichiban"
+            ReferencedContainer = "container:Organizer Ichiban.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8D16D4A5193B7C77005FC751"
             BuildableName = "Ichiban Restaurant.app"
-            BlueprintName = "Ichiban Restaurant"
-            ReferencedContainer = "container:Ichiban Restaurant.xcodeproj">
+            BlueprintName = "Organizer Ichiban"
+            ReferencedContainer = "container:Organizer Ichiban.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -81,8 +81,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8D16D4A5193B7C77005FC751"
             BuildableName = "Ichiban Restaurant.app"
-            BlueprintName = "Ichiban Restaurant"
-            ReferencedContainer = "container:Ichiban Restaurant.xcodeproj">
+            BlueprintName = "Organizer Ichiban"
+            ReferencedContainer = "container:Organizer Ichiban.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -30,7 +30,6 @@
 		8D16D4F4193B802D005FC751 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D16D4F3193B802D005FC751 /* MobileCoreServices.framework */; };
 		8D16D4F6193B8034005FC751 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D16D4F5193B8033005FC751 /* QuartzCore.framework */; };
 		8D16D4F8193B8039005FC751 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D16D4F7193B8039005FC751 /* Security.framework */; };
-		8D16D4FA193B803F005FC751 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D16D4F9193B803F005FC751 /* StoreKit.framework */; };
 		8D16D4FC193B8046005FC751 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D16D4FB193B8046005FC751 /* SystemConfiguration.framework */; };
 		8D5FC772194233980065BA0D /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5FC771194233980065BA0D /* EditViewController.m */; };
 		8D9C756D1974B004009C440C /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9C756C1974B004009C440C /* LoginViewController.m */; };
@@ -63,21 +62,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8D16D4A6193B7C77005FC751 /* Ichiban Restaurant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ichiban Restaurant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D16D4A6193B7C77005FC751 /* Organizer Ichiban.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Organizer Ichiban.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D16D4A9193B7C77005FC751 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8D16D4AB193B7C77005FC751 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		8D16D4AD193B7C77005FC751 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		8D16D4B1193B7C77005FC751 /* Ichiban Restaurant-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ichiban Restaurant-Info.plist"; sourceTree = "<group>"; };
+		8D16D4B1193B7C77005FC751 /* Organizer Ichiban-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Organizer Ichiban-Info.plist"; sourceTree = "<group>"; };
 		8D16D4B3193B7C77005FC751 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8D16D4B5193B7C77005FC751 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8D16D4B7193B7C77005FC751 /* Ichiban Restaurant-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ichiban Restaurant-Prefix.pch"; sourceTree = "<group>"; };
+		8D16D4B7193B7C77005FC751 /* Organizer Ichiban-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Organizer Ichiban-Prefix.pch"; sourceTree = "<group>"; };
 		8D16D4B8193B7C77005FC751 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8D16D4B9193B7C77005FC751 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8D16D4BC193B7C77005FC751 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D16D4C1193B7C77005FC751 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		8D16D4C7193B7C77005FC751 /* Ichiban RestaurantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ichiban RestaurantTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D16D4C7193B7C77005FC751 /* Organizer IchibanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Organizer IchibanTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D16D4C8193B7C77005FC751 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		8D16D4D0193B7C77005FC751 /* Ichiban RestaurantTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ichiban RestaurantTests-Info.plist"; sourceTree = "<group>"; };
+		8D16D4D0193B7C77005FC751 /* Organizer IchibanTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Organizer IchibanTests-Info.plist"; sourceTree = "<group>"; };
 		8D16D4D2193B7C77005FC751 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8D16D4D4193B7C77005FC751 /* Ichiban_RestaurantTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ichiban_RestaurantTests.m; sourceTree = "<group>"; };
 		8D16D4E4193B7E44005FC751 /* AddDishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddDishViewController.h; sourceTree = "<group>"; };
@@ -91,7 +90,6 @@
 		8D16D4F3193B802D005FC751 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		8D16D4F5193B8033005FC751 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		8D16D4F7193B8039005FC751 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		8D16D4F9193B803F005FC751 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		8D16D4FB193B8046005FC751 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		8D5FC770194233980065BA0D /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
 		8D5FC771194233980065BA0D /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
@@ -130,7 +128,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D16D4FC193B8046005FC751 /* SystemConfiguration.framework in Frameworks */,
-				8D16D4FA193B803F005FC751 /* StoreKit.framework in Frameworks */,
 				8D16D4F8193B8039005FC751 /* Security.framework in Frameworks */,
 				8D16D4F6193B8034005FC751 /* QuartzCore.framework in Frameworks */,
 				8D16D4F4193B802D005FC751 /* MobileCoreServices.framework in Frameworks */,
@@ -172,8 +169,8 @@
 		8D16D4A7193B7C77005FC751 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D16D4A6193B7C77005FC751 /* Ichiban Restaurant.app */,
-				8D16D4C7193B7C77005FC751 /* Ichiban RestaurantTests.xctest */,
+				8D16D4A6193B7C77005FC751 /* Organizer Ichiban.app */,
+				8D16D4C7193B7C77005FC751 /* Organizer IchibanTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -182,7 +179,6 @@
 			isa = PBXGroup;
 			children = (
 				8D16D4FB193B8046005FC751 /* SystemConfiguration.framework */,
-				8D16D4F9193B803F005FC751 /* StoreKit.framework */,
 				8D16D4F7193B8039005FC751 /* Security.framework */,
 				8D16D4F5193B8033005FC751 /* QuartzCore.framework */,
 				8D16D4F3193B802D005FC751 /* MobileCoreServices.framework */,
@@ -236,10 +232,10 @@
 		8D16D4B0193B7C77005FC751 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8D16D4B1193B7C77005FC751 /* Ichiban Restaurant-Info.plist */,
+				8D16D4B1193B7C77005FC751 /* Organizer Ichiban-Info.plist */,
 				8D16D4B2193B7C77005FC751 /* InfoPlist.strings */,
 				8D16D4B5193B7C77005FC751 /* main.m */,
-				8D16D4B7193B7C77005FC751 /* Ichiban Restaurant-Prefix.pch */,
+				8D16D4B7193B7C77005FC751 /* Organizer Ichiban-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -256,7 +252,7 @@
 		8D16D4CF193B7C77005FC751 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8D16D4D0193B7C77005FC751 /* Ichiban RestaurantTests-Info.plist */,
+				8D16D4D0193B7C77005FC751 /* Organizer IchibanTests-Info.plist */,
 				8D16D4D1193B7C77005FC751 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -299,9 +295,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8D16D4A5193B7C77005FC751 /* Ichiban Restaurant */ = {
+		8D16D4A5193B7C77005FC751 /* Organizer Ichiban */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8D16D4D8193B7C77005FC751 /* Build configuration list for PBXNativeTarget "Ichiban Restaurant" */;
+			buildConfigurationList = 8D16D4D8193B7C77005FC751 /* Build configuration list for PBXNativeTarget "Organizer Ichiban" */;
 			buildPhases = (
 				8D16D4A2193B7C77005FC751 /* Sources */,
 				8D16D4A3193B7C77005FC751 /* Frameworks */,
@@ -311,14 +307,14 @@
 			);
 			dependencies = (
 			);
-			name = "Ichiban Restaurant";
+			name = "Organizer Ichiban";
 			productName = "Ichiban Restaurant";
-			productReference = 8D16D4A6193B7C77005FC751 /* Ichiban Restaurant.app */;
+			productReference = 8D16D4A6193B7C77005FC751 /* Organizer Ichiban.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8D16D4C6193B7C77005FC751 /* Ichiban RestaurantTests */ = {
+		8D16D4C6193B7C77005FC751 /* Organizer IchibanTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8D16D4DB193B7C77005FC751 /* Build configuration list for PBXNativeTarget "Ichiban RestaurantTests" */;
+			buildConfigurationList = 8D16D4DB193B7C77005FC751 /* Build configuration list for PBXNativeTarget "Organizer IchibanTests" */;
 			buildPhases = (
 				8D16D4C3193B7C77005FC751 /* Sources */,
 				8D16D4C4193B7C77005FC751 /* Frameworks */,
@@ -329,9 +325,9 @@
 			dependencies = (
 				8D16D4CD193B7C77005FC751 /* PBXTargetDependency */,
 			);
-			name = "Ichiban RestaurantTests";
+			name = "Organizer IchibanTests";
 			productName = "Ichiban RestaurantTests";
-			productReference = 8D16D4C7193B7C77005FC751 /* Ichiban RestaurantTests.xctest */;
+			productReference = 8D16D4C7193B7C77005FC751 /* Organizer IchibanTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -343,12 +339,20 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = yipick;
 				TargetAttributes = {
+					8D16D4A5193B7C77005FC751 = {
+						DevelopmentTeam = U49UQ4SP28;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
+					};
 					8D16D4C6193B7C77005FC751 = {
 						TestTargetID = 8D16D4A5193B7C77005FC751;
 					};
 				};
 			};
-			buildConfigurationList = 8D16D4A1193B7C77005FC751 /* Build configuration list for PBXProject "Ichiban Restaurant" */;
+			buildConfigurationList = 8D16D4A1193B7C77005FC751 /* Build configuration list for PBXProject "Organizer Ichiban" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -361,8 +365,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8D16D4A5193B7C77005FC751 /* Ichiban Restaurant */,
-				8D16D4C6193B7C77005FC751 /* Ichiban RestaurantTests */,
+				8D16D4A5193B7C77005FC751 /* Organizer Ichiban */,
+				8D16D4C6193B7C77005FC751 /* Organizer IchibanTests */,
 			);
 		};
 /* End PBXProject section */
@@ -430,7 +434,7 @@
 /* Begin PBXTargetDependency section */
 		8D16D4CD193B7C77005FC751 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8D16D4A5193B7C77005FC751 /* Ichiban Restaurant */;
+			target = 8D16D4A5193B7C77005FC751 /* Organizer Ichiban */;
 			targetProxy = 8D16D4CC193B7C77005FC751 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -538,14 +542,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Ichiban Restaurant/Ichiban Restaurant-Prefix.pch";
-				INFOPLIST_FILE = "Ichiban Restaurant/Ichiban Restaurant-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Ichiban Restaurant/Organizer Ichiban-Prefix.pch";
+				INFOPLIST_FILE = "Ichiban Restaurant/Organizer Ichiban-Info.plist";
+				PRODUCT_NAME = "Organizer Ichiban";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -555,14 +562,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Ichiban Restaurant/Ichiban Restaurant-Prefix.pch";
-				INFOPLIST_FILE = "Ichiban Restaurant/Ichiban Restaurant-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Ichiban Restaurant/Organizer Ichiban-Prefix.pch";
+				INFOPLIST_FILE = "Ichiban Restaurant/Organizer Ichiban-Info.plist";
+				PRODUCT_NAME = "Organizer Ichiban";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -582,8 +592,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "Ichiban RestaurantTests/Ichiban RestaurantTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "Ichiban RestaurantTests/Organizer IchibanTests-Info.plist";
+				PRODUCT_NAME = "Organizer IchibanTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -600,8 +610,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Ichiban Restaurant/Ichiban Restaurant-Prefix.pch";
-				INFOPLIST_FILE = "Ichiban RestaurantTests/Ichiban RestaurantTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "Ichiban RestaurantTests/Organizer IchibanTests-Info.plist";
+				PRODUCT_NAME = "Organizer IchibanTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -610,7 +620,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8D16D4A1193B7C77005FC751 /* Build configuration list for PBXProject "Ichiban Restaurant" */ = {
+		8D16D4A1193B7C77005FC751 /* Build configuration list for PBXProject "Organizer Ichiban" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8D16D4D6193B7C77005FC751 /* Debug */,
@@ -619,7 +629,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8D16D4D8193B7C77005FC751 /* Build configuration list for PBXNativeTarget "Ichiban Restaurant" */ = {
+		8D16D4D8193B7C77005FC751 /* Build configuration list for PBXNativeTarget "Organizer Ichiban" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8D16D4D9193B7C77005FC751 /* Debug */,
@@ -628,7 +638,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8D16D4DB193B7C77005FC751 /* Build configuration list for PBXNativeTarget "Ichiban RestaurantTests" */ = {
+		8D16D4DB193B7C77005FC751 /* Build configuration list for PBXNativeTarget "Organizer IchibanTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8D16D4DC193B7C77005FC751 /* Debug */,
