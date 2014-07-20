@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D0EC90C197C1C13003C311A /* Icons in Resources */ = {isa = PBXBuildFile; fileRef = 8D0EC90B197C1C13003C311A /* Icons */; };
 		8D16D4AA193B7C77005FC751 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D16D4A9193B7C77005FC751 /* Foundation.framework */; };
 		8D16D4AC193B7C77005FC751 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D16D4AB193B7C77005FC751 /* CoreGraphics.framework */; };
 		8D16D4AE193B7C77005FC751 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D16D4AD193B7C77005FC751 /* UIKit.framework */; };
@@ -62,6 +63,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D0EC90B197C1C13003C311A /* Icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Icons; sourceTree = "<group>"; };
 		8D16D4A6193B7C77005FC751 /* Organizer Ichiban.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Organizer Ichiban.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D16D4A9193B7C77005FC751 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8D16D4AB193B7C77005FC751 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -222,7 +224,7 @@
 				8D9C75711974B25E009C440C /* AddViewController.h */,
 				8D9C75721974B25E009C440C /* AddViewController.m */,
 				8D5FC76F194232040065BA0D /* Dictionary-JSONString */,
-				8DC99E78194143FC0094288F /* Icons */,
+				8DC99E78194143FC0094288F /* Icons in App */,
 				8D16D4C1193B7C77005FC751 /* Images.xcassets */,
 				8D16D4B0193B7C77005FC751 /* Supporting Files */,
 			);
@@ -269,9 +271,10 @@
 			name = "Dictionary-JSONString";
 			sourceTree = "<group>";
 		};
-		8DC99E78194143FC0094288F /* Icons */ = {
+		8DC99E78194143FC0094288F /* Icons in App */ = {
 			isa = PBXGroup;
 			children = (
+				8D0EC90B197C1C13003C311A /* Icons */,
 				8DC99E6C194143EC0094288F /* Review@2x.png */,
 				8DC99E6D194143ED0094288F /* Edit@2x.png */,
 				8DC99E6E194143ED0094288F /* Add@2x.png */,
@@ -279,7 +282,7 @@
 				8DC99E73194143F60094288F /* Edit.png */,
 				8DC99E74194143F60094288F /* Add.png */,
 			);
-			name = Icons;
+			name = "Icons in App";
 			sourceTree = "<group>";
 		};
 		8DC99E7E1941474D0094288F /* SVProgressHUD */ = {
@@ -384,6 +387,7 @@
 				8DC99E7D194147470094288F /* SVProgressHUD.bundle in Resources */,
 				8D16D4B4193B7C77005FC751 /* InfoPlist.strings in Resources */,
 				8DC99E70194143ED0094288F /* Edit@2x.png in Resources */,
+				8D0EC90C197C1C13003C311A /* Icons in Resources */,
 				8DC99E75194143F60094288F /* Review.png in Resources */,
 				8D16D4BD193B7C77005FC751 /* Main.storyboard in Resources */,
 			);
@@ -540,9 +544,7 @@
 		8D16D4D9193B7C77005FC751 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -560,9 +562,7 @@
 		8D16D4DA193B7C77005FC751 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",

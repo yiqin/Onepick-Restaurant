@@ -18,10 +18,6 @@
     [Parse setApplicationId:@"2D6T3tgwBIPoE8HkuninwT3gsUkrHouCfzg0MzDL"
                   clientKey:@"cmvDVWTEIrZO4phyuddppS96diUqckCKazxBEwxH"];
     
-    
-    
-    
-    
     return YES;
 }
 							

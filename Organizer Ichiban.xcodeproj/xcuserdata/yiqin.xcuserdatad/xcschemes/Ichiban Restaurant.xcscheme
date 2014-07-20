@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8D16D4A5193B7C77005FC751"
-               BuildableName = "Ichiban Restaurant.app"
+               BuildableName = "Organizer Ichiban.app"
                BlueprintName = "Organizer Ichiban"
                ReferencedContainer = "container:Organizer Ichiban.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8D16D4C6193B7C77005FC751"
-               BuildableName = "Ichiban RestaurantTests.xctest"
+               BuildableName = "Organizer IchibanTests.xctest"
                BlueprintName = "Organizer IchibanTests"
                ReferencedContainer = "container:Organizer Ichiban.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8D16D4A5193B7C77005FC751"
-            BuildableName = "Ichiban Restaurant.app"
+            BuildableName = "Organizer Ichiban.app"
             BlueprintName = "Organizer Ichiban"
             ReferencedContainer = "container:Organizer Ichiban.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8D16D4A5193B7C77005FC751"
-            BuildableName = "Ichiban Restaurant.app"
+            BuildableName = "Organizer Ichiban.app"
             BlueprintName = "Organizer Ichiban"
             ReferencedContainer = "container:Organizer Ichiban.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8D16D4A5193B7C77005FC751"
-            BuildableName = "Ichiban Restaurant.app"
+            BuildableName = "Organizer Ichiban.app"
             BlueprintName = "Organizer Ichiban"
             ReferencedContainer = "container:Organizer Ichiban.xcodeproj">
          </BuildableReference>

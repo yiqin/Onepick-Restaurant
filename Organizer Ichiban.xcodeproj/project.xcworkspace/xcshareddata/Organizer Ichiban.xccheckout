@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5A338317-0E3D-4B55-BE11-8DA62A88504F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Organizer Ichiban</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>36D4FFBE-F5E3-46D0-8710-C117EF46D41F</key>
+		<string>https://github.com/yiqin/Onepick-Restaurant.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Organizer Ichiban.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>36D4FFBE-F5E3-46D0-8710-C117EF46D41F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/yiqin/Onepick-Restaurant.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>36D4FFBE-F5E3-46D0-8710-C117EF46D41F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>36D4FFBE-F5E3-46D0-8710-C117EF46D41F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Onepick-Restaurant</string>
+		</dict>
+	</array>
+</dict>
+</plist>
