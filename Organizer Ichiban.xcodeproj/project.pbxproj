@@ -33,6 +33,7 @@
 		8D16D4F8193B8039005FC751 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D16D4F7193B8039005FC751 /* Security.framework */; };
 		8D16D4FC193B8046005FC751 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D16D4FB193B8046005FC751 /* SystemConfiguration.framework */; };
 		8D5FC772194233980065BA0D /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5FC771194233980065BA0D /* EditViewController.m */; };
+		8D7904FD197C21FF00D27EEA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D7904FC197C21FF00D27EEA /* Default-568h@2x.png */; };
 		8D9C756D1974B004009C440C /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9C756C1974B004009C440C /* LoginViewController.m */; };
 		8D9C75731974B25E009C440C /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9C75721974B25E009C440C /* AddViewController.m */; };
 		8DC99E6F194143ED0094288F /* Review@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DC99E6C194143EC0094288F /* Review@2x.png */; };
@@ -95,6 +96,7 @@
 		8D16D4FB193B8046005FC751 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		8D5FC770194233980065BA0D /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
 		8D5FC771194233980065BA0D /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
+		8D7904FC197C21FF00D27EEA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		8D9C756B1974B004009C440C /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		8D9C756C1974B004009C440C /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		8D9C75711974B25E009C440C /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
@@ -161,6 +163,7 @@
 		8D16D49D193B7C77005FC751 = {
 			isa = PBXGroup;
 			children = (
+				8D7904FC197C21FF00D27EEA /* Default-568h@2x.png */,
 				8D16D4AF193B7C77005FC751 /* Ichiban Restaurant */,
 				8D16D4CE193B7C77005FC751 /* Ichiban RestaurantTests */,
 				8D16D4A8193B7C77005FC751 /* Frameworks */,
@@ -384,6 +387,7 @@
 				8D16D4C2193B7C77005FC751 /* Images.xcassets in Resources */,
 				8DC99E77194143F60094288F /* Add.png in Resources */,
 				8DC99E71194143ED0094288F /* Add@2x.png in Resources */,
+				8D7904FD197C21FF00D27EEA /* Default-568h@2x.png in Resources */,
 				8DC99E7D194147470094288F /* SVProgressHUD.bundle in Resources */,
 				8D16D4B4193B7C77005FC751 /* InfoPlist.strings in Resources */,
 				8DC99E70194143ED0094288F /* Edit@2x.png in Resources */,
